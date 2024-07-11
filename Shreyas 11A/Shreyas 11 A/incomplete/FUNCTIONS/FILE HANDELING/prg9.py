@@ -1,0 +1,5 @@
+file=open("notes.txt",'w+')
+file.write("Yesterday match was washedout because of the rain")
+file.seek(0)
+print(file.read())
+file.close()
